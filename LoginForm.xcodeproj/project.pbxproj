@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58ED22D4241F604B00D6BEED /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22D3241F604A00D6BEED /* UserInfo.swift */; };
+		58ED22D6241F6F3700D6BEED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22D5241F6F3700D6BEED /* HomeViewController.swift */; };
+		58ED22D8241F6FA700D6BEED /* AboutMeFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22D7241F6FA700D6BEED /* AboutMeFirstViewController.swift */; };
+		58ED22DA241F6FDA00D6BEED /* AboutMeSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22D9241F6FDA00D6BEED /* AboutMeSecondViewController.swift */; };
+		58ED22DC241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22DB241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift */; };
+		58ED22DE241F6FF900D6BEED /* AboutMyGfSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22DD241F6FF900D6BEED /* AboutMyGfSecondViewController.swift */; };
 		58EEF919241232A4001184E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF918241232A4001184E7 /* AppDelegate.swift */; };
 		58EEF91B241232A4001184E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF91A241232A4001184E7 /* SceneDelegate.swift */; };
-		58EEF91D241232A4001184E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF91C241232A4001184E7 /* ViewController.swift */; };
+		58EEF91D241232A4001184E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF91C241232A4001184E7 /* LoginViewController.swift */; };
 		58EEF920241232A4001184E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EEF91E241232A4001184E7 /* Main.storyboard */; };
 		58EEF922241232AE001184E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EEF921241232AE001184E7 /* Assets.xcassets */; };
 		58EEF925241232AE001184E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EEF923241232AE001184E7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58ED22D3241F604A00D6BEED /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		58ED22D5241F6F3700D6BEED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58ED22D7241F6FA700D6BEED /* AboutMeFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeFirstViewController.swift; sourceTree = "<group>"; };
+		58ED22D9241F6FDA00D6BEED /* AboutMeSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeSecondViewController.swift; sourceTree = "<group>"; };
+		58ED22DB241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMyGfFirstViewController.swift; sourceTree = "<group>"; };
+		58ED22DD241F6FF900D6BEED /* AboutMyGfSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMyGfSecondViewController.swift; sourceTree = "<group>"; };
 		58EEF915241232A4001184E7 /* LoginForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EEF918241232A4001184E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58EEF91A241232A4001184E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58EEF91C241232A4001184E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58EEF91C241232A4001184E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		58EEF91F241232A4001184E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58EEF921241232AE001184E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58EEF924241232AE001184E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +49,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58ED22C3241E47EE00D6BEED /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58EEF91C241232A4001184E7 /* LoginViewController.swift */,
+				58ED22D5241F6F3700D6BEED /* HomeViewController.swift */,
+				58ED22D7241F6FA700D6BEED /* AboutMeFirstViewController.swift */,
+				58ED22D9241F6FDA00D6BEED /* AboutMeSecondViewController.swift */,
+				58ED22DB241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift */,
+				58ED22DD241F6FF900D6BEED /* AboutMyGfSecondViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		58ED22C4241E481200D6BEED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				58EEF91E241232A4001184E7 /* Main.storyboard */,
+				58EEF923241232AE001184E7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		58ED22C5241E482700D6BEED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				58EEF921241232AE001184E7 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		58ED22C6241E484300D6BEED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58EEF918241232A4001184E7 /* AppDelegate.swift */,
+				58EEF91A241232A4001184E7 /* SceneDelegate.swift */,
+				58EEF926241232AE001184E7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58ED22C7241E486000D6BEED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58ED22D3241F604A00D6BEED /* UserInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58ED22C8241E488700D6BEED /* UIView + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIView + Extensions";
+			sourceTree = "<group>";
+		};
 		58EEF90C241232A4001184E7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +123,12 @@
 		58EEF917241232A4001184E7 /* LoginForm */ = {
 			isa = PBXGroup;
 			children = (
-				58EEF918241232A4001184E7 /* AppDelegate.swift */,
-				58EEF91A241232A4001184E7 /* SceneDelegate.swift */,
-				58EEF91C241232A4001184E7 /* ViewController.swift */,
-				58EEF91E241232A4001184E7 /* Main.storyboard */,
-				58EEF921241232AE001184E7 /* Assets.xcassets */,
-				58EEF923241232AE001184E7 /* LaunchScreen.storyboard */,
-				58EEF926241232AE001184E7 /* Info.plist */,
+				58ED22C7241E486000D6BEED /* Models */,
+				58ED22C3241E47EE00D6BEED /* View Controllers */,
+				58ED22C6241E484300D6BEED /* Supporting Files */,
+				58ED22C4241E481200D6BEED /* Storyboards */,
+				58ED22C5241E482700D6BEED /* Source */,
+				58ED22C8241E488700D6BEED /* UIView + Extensions */,
 			);
 			path = LoginForm;
 			sourceTree = "<group>";
@@ -138,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58EEF91D241232A4001184E7 /* ViewController.swift in Sources */,
+				58ED22D6241F6F3700D6BEED /* HomeViewController.swift in Sources */,
+				58ED22D4241F604B00D6BEED /* UserInfo.swift in Sources */,
+				58ED22DC241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift in Sources */,
+				58ED22DA241F6FDA00D6BEED /* AboutMeSecondViewController.swift in Sources */,
+				58ED22D8241F6FA700D6BEED /* AboutMeFirstViewController.swift in Sources */,
+				58EEF91D241232A4001184E7 /* LoginViewController.swift in Sources */,
 				58EEF919241232A4001184E7 /* AppDelegate.swift in Sources */,
 				58EEF91B241232A4001184E7 /* SceneDelegate.swift in Sources */,
+				58ED22DE241F6FF900D6BEED /* AboutMyGfSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +358,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7NCZ24UXD;
-				INFOPLIST_FILE = LoginForm/Info.plist;
+				INFOPLIST_FILE = "LoginForm/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = st.eugene.LoginForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +377,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7NCZ24UXD;
-				INFOPLIST_FILE = LoginForm/Info.plist;
+				INFOPLIST_FILE = "LoginForm/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = st.eugene.LoginForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
