@@ -13,6 +13,7 @@
 		58ED22DA241F6FDA00D6BEED /* AboutMeSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22D9241F6FDA00D6BEED /* AboutMeSecondViewController.swift */; };
 		58ED22DC241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22DB241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift */; };
 		58ED22DE241F6FF900D6BEED /* AboutMyGfSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22DD241F6FF900D6BEED /* AboutMyGfSecondViewController.swift */; };
+		58ED22E02420FB7500D6BEED /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED22DF2420FB7500D6BEED /* UIViewGradient.swift */; };
 		58EEF919241232A4001184E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF918241232A4001184E7 /* AppDelegate.swift */; };
 		58EEF91B241232A4001184E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF91A241232A4001184E7 /* SceneDelegate.swift */; };
 		58EEF91D241232A4001184E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEF91C241232A4001184E7 /* LoginViewController.swift */; };
@@ -28,6 +29,7 @@
 		58ED22D9241F6FDA00D6BEED /* AboutMeSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeSecondViewController.swift; sourceTree = "<group>"; };
 		58ED22DB241F6FEB00D6BEED /* AboutMyGfFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMyGfFirstViewController.swift; sourceTree = "<group>"; };
 		58ED22DD241F6FF900D6BEED /* AboutMyGfSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMyGfSecondViewController.swift; sourceTree = "<group>"; };
+		58ED22DF2420FB7500D6BEED /* UIViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
 		58EEF915241232A4001184E7 /* LoginForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EEF918241232A4001184E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58EEF91A241232A4001184E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		58ED22C8241E488700D6BEED /* UIView + Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				58ED22DF2420FB7500D6BEED /* UIViewGradient.swift */,
 			);
 			path = "UIView + Extensions";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				58EEF91D241232A4001184E7 /* LoginViewController.swift in Sources */,
 				58EEF919241232A4001184E7 /* AppDelegate.swift in Sources */,
 				58EEF91B241232A4001184E7 /* SceneDelegate.swift in Sources */,
+				58ED22E02420FB7500D6BEED /* UIViewGradient.swift in Sources */,
 				58ED22DE241F6FF900D6BEED /* AboutMyGfSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

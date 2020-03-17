@@ -7,6 +7,6 @@
 //
 
 struct UserInfo {
-  let username: String
-  let password: String
+  let username: String = "User"
+  let password: String = "Password"
 }
