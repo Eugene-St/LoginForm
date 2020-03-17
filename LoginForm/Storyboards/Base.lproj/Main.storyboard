@@ -27,7 +27,7 @@
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="rZm-3j-BHZ"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CMu-tf-vCf">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CMu-tf-vCf">
                                         <rect key="frame" x="0.0" y="54" width="295" height="34"/>
                                         <color key="backgroundColor" red="0.96676870609999999" green="0.96111508800000001" blue="0.97242232429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>

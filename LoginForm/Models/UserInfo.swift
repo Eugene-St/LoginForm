@@ -7,6 +7,11 @@
 //
 
 struct UserInfo {
-  let username: String = "Steyci"
-  let password: String = "Palienko"
+  let username: String
+  let password: String
+  
+  static func getUserData() -> UserInfo {
+    UserInfo(username: "Eugene", password: "St")
+  }
+  
 }
